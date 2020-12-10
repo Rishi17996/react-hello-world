@@ -1,3 +1,5 @@
+// Stateless Functional Component
+
 import React from 'react';
 
 // normal function
