@@ -8,32 +8,34 @@ import React, { Component } from 'react';
 // import Counter from './components/Counter';
 // import FunctionClick from './components/FunctionClick';
 // import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
+// import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <EventBind />
-        {/*<ClassClick />
-        <FunctionClick />
-        <Welcome name="Thor" hero="Thor Odinson">
-        </Welcome>
-        <Counter />
-        <Message />
-        <Greet name="Tony" hero="Ironman">
+        
+        {/*<ParentComponent />*/}
+        {/*<EventBind />*/}
+        {/*<ClassClick />*/}
+        {/*<FunctionClick />*/}
+        {/*<Welcome name="Thor" hero="Thor Odinson">
+        </Welcome>*/}
+        {/*<Counter />*/}
+        {/*<Message />*/}
+        {/*<Greet name="Tony" hero="Ironman">
           <p>This is children props.</p>
-        </Greet>
-        <Greet name="Steve" hero="Captain America">
+        </Greet>*/}
+        {/*<Greet name="Steve" hero="Captain America">
           <button>Action</button>
-        </Greet>
-        <Greet name="Thor" hero="Thor Odinson"/>
-        <Welcome name="Tony" hero="Ironman">
-        </Welcome>
-        <Welcome name="Steve" hero="Captain America">
-        </Welcome>
-
-        <Hello />*/}
+        </Greet>*/}
+        {/*<Greet name="Thor" hero="Thor Odinson"/>*/}
+        {/*<Welcome name="Tony" hero="Ironman">
+        </Welcome>*/}
+        {/*<Welcome name="Steve" hero="Captain America">
+        </Welcome>*/}
+        {/*<Hello />*/}
       </div>
     );
   }
