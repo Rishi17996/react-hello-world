@@ -12,13 +12,15 @@ import React, { Component } from 'react';
 // import ParentComponent from './components/ParentComponent';
 // import UserGreeting from './components/UserGreeting';
 // import NameList from './components/NameList';
-import Form from './components/Form';
+// import Form from './components/Form';
+import LifecycleA from './components/LifecycleA'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Form />
+        <LifecycleA />
+        {/*<Form />*/}
         {/*<NameList />*/}
         {/*<UserGreeting />*/}
         {/*<ParentComponent />*/}
